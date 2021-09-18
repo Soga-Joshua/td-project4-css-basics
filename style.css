@@ -76,6 +76,7 @@ img {
   color: white;
   position: relative;
   left: 30px;
+  top: 5px;
   margin: 10px;
 }
 .linkcontainer {
@@ -84,8 +85,21 @@ img {
   position: relative;
   top: -33px;
   left: -30px;
+  /* padding: 10px; */
 }
-a {
+.about {
+  padding: 10px 15px 10px 10px;
+}
+.services {
+  padding: 10px 15px 10px 10px;
+}
+.projects {
+  padding: 10px 15px 10px 10px;
+}
+.contact {
+  padding: 10px 15px 10px 10px;
+}
+/* a {
   width: 50px;
   height: 10px;
   margin: 5px;
@@ -95,6 +109,19 @@ a {
 }
 a:-webkit-any-link {
   color: white;
+}
+.linkcontainer:hover {
+  color: brown;
+} */
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: brown;
+}
+a:visited {
+  color: yellow;
 }
 .firsttext {
   position: relative;
@@ -172,6 +199,18 @@ a:-webkit-any-link {
   .linkcontainer {
     top: -33px;
     left: -5px;
+  }
+  .about {
+    padding: 10px 3px 10px 10px;
+  }
+  .services {
+    padding: 10px 3px 10px 10px;
+  }
+  .projects {
+    padding: 10px 3px 10px 10px;
+  }
+  .contact {
+    padding: 10px 3px 10px 10px;
   }
   img {
     height: 90px;
@@ -272,6 +311,7 @@ a:-webkit-any-link {
   .firstheader {
     position: relative;
     left: 0px;
+    top: 5px;
   }
   .linkcontainer {
     top: -33px;
@@ -292,7 +332,7 @@ a:-webkit-any-link {
   }
   .description2 {
     position: relative;
-    left: 80px;
+    left: 76px;
     top: -28px;
   }
   .flag {
@@ -300,7 +340,7 @@ a:-webkit-any-link {
     width: 15px;
     position: relative;
     top: 75px;
-    left: 160px;
+    left: 158px;
   }
   #midsection {
     height: 100px;
